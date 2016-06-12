@@ -79,3 +79,22 @@ a:hover {
   display: inline-block;
   margin-right: 1em;
 }
+
+@media only screen and (max-width: 500px) {
+	.masthead {
+		padding: 3em 0;
+	}
+	.masthead-intro {
+		margin-bottom: 1px;
+	}
+	.masthead-heading {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 650px){
+		.introduction-section, .questions-section {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+}
